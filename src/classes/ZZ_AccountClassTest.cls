@@ -29,7 +29,7 @@ private class ZZ_AccountClassTest {
         
         // わざとエラーにする
         // 再度チャレンジ
-        System.assertEquals(3, ret.size());
+        System.assertEquals(1, ret.size());
     }
     
     /**
