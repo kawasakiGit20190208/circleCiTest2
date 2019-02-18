@@ -14,6 +14,10 @@ public class AccountClass {
         Account acc = new Account();
         acc.name = 'Test' + getRandomString(5);
         insert acc;
+
+		Account acc2 = new Account();
+        acc2.name = 'Test' + getRandomString(5);
+        insert acc2;
         
         // 作成した取引先返却
         return acc;
